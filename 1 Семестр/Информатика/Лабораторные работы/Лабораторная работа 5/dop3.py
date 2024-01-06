@@ -3,7 +3,7 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-file = r'' # Здесь ввести путь scv файла
+file = r'' # Здесь ввести путь csv файла
 with open(f'{file}') as r_file:  
     file_reader = csv.reader(r_file, delimiter=',')
     arr = [[], [], [], []]
