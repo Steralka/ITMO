@@ -34,7 +34,7 @@
 Конвертер в зачетку (Барс):
 ```mermaid
 graph TD;
-    Lab1-->LAB1;
+    Лабораторнаяㅤработаㅤ№1-->LAB1;
     Lab2-->LAB1;
     Lab3-->LAB1;
     Lab4-->LAB2;
@@ -44,5 +44,4 @@ graph TD;
     Annotation-->HOMEWORK;
     Visit-->HOMEWORK;
     Test1;
-    Тест 2;
 ```
