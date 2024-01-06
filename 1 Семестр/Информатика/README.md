@@ -44,4 +44,5 @@ graph TD;
     Annotation-->HOMEWORK;
     Visit-->HOMEWORK;
     Test1;
+    Тест2;
 ```
