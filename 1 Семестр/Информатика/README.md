@@ -2,7 +2,7 @@
 
 Лектор: Балакшин Павел Валерьевич.
 
-#Зачетка
+# Зачетка
 Точка | min | max | Ключ |
 | :---: | :---: | :---: | :---: |
 Дополнительные баллы | 0 | 3 | - 
@@ -32,16 +32,16 @@
 Итог | 60 | 100 |
 
 Конвертер в зачетку (Барс):
-
 ```mermaid
 graph TD;
-    lab1-->LAB1;
-    lab2-->LAB1;
-    lab3-->LAB1;
-    lab4-->LAB2;
-    lab5-->LAB2;
-    lab6-->LAB3;
+    Lab1-->LAB1;
+    Lab2-->LAB1;
+    Lab3-->LAB1;
+    Lab4-->LAB2;
+    Lab5-->LAB2;
+    Lab6-->LAB3;
     Google-forms-->HOMEWORK;
     Annotation-->HOMEWORK;
-    Is-->HOMEWORK;
+    Visit-->HOMEWORK;
+    Test1;
 ```
