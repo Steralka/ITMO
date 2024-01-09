@@ -3,8 +3,8 @@
 ### Отзыв: Так, а смысл писать если у перваков выбора не будет.
 ### Полезная информация: https://t.me/balakshin_students
 -------------------------
-### ЦДО 1 - https://docs.google.com/document/d/1ist0inCu-R825WZbU0f0yOEgP-tKA2mNIz10meXCw0k/edit?usp=sharing
-### ЦДО 2 - https://docs.google.com/document/d/1L87jwVduVDCsIyIWdSlYqZ-Gd9XRykO3Pjx7C_WjG0c/edit?usp=sharing
+### ЦДО 1 - [тык](https://docs.google.com/document/d/1ist0inCu-R825WZbU0f0yOEgP-tKA2mNIz10meXCw0k/edit?usp=sharing)
+### ЦДО 2 - [тык](https://docs.google.com/document/d/1L87jwVduVDCsIyIWdSlYqZ-Gd9XRykO3Pjx7C_WjG0c/edit?usp=sharing)
 -------------------------
 
 ## Про разбалловку и автоматы
