@@ -1,5 +1,5 @@
 import math
-def f(z, n, t):
+def f(z: int, n: int, t: int):
     res = z
     s = [i for i in range(1, n + 1)]
     l = dict()
@@ -23,8 +23,11 @@ def f(z, n, t):
         r[r.index(0)] = a[-1]
         l[''.join(r)] = j
     if t == 1:
-        return f'Номер перестановки: {l[res]} - результат: {res}'
-    else:
         return f'Номер перестановки: {res} - результат: {list(l.keys())[list(l.values()).index(z)]}'
+    else:
+        return f'Номер перестановки: {l[str(res)]} - результат: {res}'
 
-print(f(93, 5, 2))
+print(f(12345, 5, 2)) 
+#z - перестановку или номер перестановки
+#n - число 
+#t - 1 - поиск перестановки 2 - поиск номера перестановки
