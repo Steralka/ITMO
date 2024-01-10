@@ -1,10 +1,9 @@
 import math
+
 def f(z: int, n: int, t: int) -> str:
-    res = z
     s = [i for i in range(1, n + 1)]
-    l = dict()
-    for j in range(math.factorial(n)):
-        p = j
+    if t == 1:
+        p = z
         r = [0] * len(s)
         a = ''.join(map(str, s))
         sc = ''
@@ -21,15 +20,17 @@ def f(z: int, n: int, t: int) -> str:
             r[-ind] = a[-1]
             a = a[:-1]
         r[r.index(0)] = a[-1]
-        l[''.join(r)] = j
-    if t == 1:
-        return f'Номер перестановки: {res} - результат: {list(l.keys())[list(l.values()).index(z)]}'
-    else:
-        return f'Номер перестановки: {l[str(res)]} - результат: {res}'
+        return f'Для номера перестановки: {z} будет перестановка: {"".join(r)}'
+    if t == 2:
+        sc = []
+        sp = list(map(int, str(z)))
+        for i in range(n, 1, -1):
+            sc.append(abs(sp.index(i) - len(sp) + 1))
+            sp.remove(i)
+        return f'Для перестановки: {sum(sc[-i] * math.factorial(i) for i in range(len(sc), 0, -1))} будет номер перестановки: {z}'
 
-print(f(12345, 5, 2)) 
+print(f(93, 5, 1)) # найдем перестановку
+print(f(43215, 5, 2)) # найдем номер перестановки
 #z - перестановку или номер перестановки
-#n - число 
+#n - число
 #t - 1 - поиск перестановки 2 - поиск номера перестановки
-
-# КОД НЕ ОПТИМИЗИРОВАН ДЛЯ БОЛЬШИХ ФАКТОРИАЛАХ! СКОРО БУДЕТ ПЕРЕПИСАН.
