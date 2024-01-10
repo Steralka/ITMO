@@ -1,5 +1,5 @@
 import math
-def f(z: int, n: int, t: int):
+def f(z: int, n: int, t: int) -> str:
     res = z
     s = [i for i in range(1, n + 1)]
     l = dict()
