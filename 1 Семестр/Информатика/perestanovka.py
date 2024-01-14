@@ -25,9 +25,9 @@ def f(z: int, n: int, t: int) -> str:
         sc = []
         sp = list(map(int, str(z)))
         for i in range(n, 1, -1):
-            sc.append(abs(sp.index(i) - len(sp) + 1))
+            sc.append(len(sp) - sp.index(i) - 1)
             sp.remove(i)
-        return f'Для перестановки: {sum(sc[-i] * math.factorial(i) for i in range(len(sc), 0, -1))} будет номер перестановки: {z}'
+        return f'Для перестановки: {z} будет номер перестановки: {sum(sc[-i] * math.factorial(i) for i in range(len(sc), 0, -1))}'
 
 print(f(93, 5, 1)) # найдем перестановку
 print(f(43215, 5, 2)) # найдем номер перестановки
