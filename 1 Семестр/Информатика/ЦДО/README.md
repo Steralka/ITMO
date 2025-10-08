@@ -7,9 +7,9 @@
 > [!IMPORTANT]
 > Собраны с помощью этих челов:
 >
-> [@rapiratik](t.me/rapiratik) - [github](https://github.com/Steralka)
+> [@rapiratik](https://t.me/rapiratik) - [github](https://github.com/Steralka)
 >
-> [@nyapsilon](t.me/nyapsilon) - [github](https://github.com/maxbarsukov)
+> [@nyapsilon](https://t.me/nyapsilon) - [github](https://github.com/maxbarsukov)
 
 ## Про память
 
