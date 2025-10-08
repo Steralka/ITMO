@@ -6,9 +6,8 @@
 
 > [!IMPORTANT]
 > Собраны с помощью этих челов:
-> github
-> @nyapsilon - github
-====================================
+> [@rapiratik](t.me/rapiratik) - [github](https://github.com/Steralka)
+> [@nyapsilon](t.me/nyapsilon) - [github](https://github.com/maxbarsukov)
 
 Сколько килобайт содержится в 3 MiB? В ответе написать только целую часть результата.
 Ответ: 3145
@@ -52,6 +51,7 @@
 
 353(11) - 353(8) записать в 10 сс 
 **Ответ: 186**
+
 
 Ответ: -7412
 
@@ -175,3 +175,146 @@ print(x[:4] + x[4:])
 ```
 
 **Ответ: ['I', 'like', 'to', 'study', 'at', 'ITMO']**
+
+```
+q = ['q', 'w']
+q.append(123)
+print(q)
+```
+
+**Ответ: ['q', 'w', 123]**
+
+```
+if 'числ' in 'очисление':
+    print('Correct')
+```
+
+**Ответ: Correct**
+
+```a = 3100
+b = 3114
+if a:
+    print('Correct')
+```
+
+**Ответ: Correct**
+
+```
+count = 0
+for j in 'Hi! I\'m mister Rorert':
+    count += 1
+print(count)
+```
+
+**Ответ: 21**
+
+```
+print(None or 42)
+```
+
+**Ответ: 42**
+
+```
+print(None and 42)
+```
+
+**Ответ: None**
+
+```
+print(':3' or 42)
+```
+
+**Ответ: :3**
+
+```
+print(':3' and 42)
+```
+
+**Ответ: 42**
+
+```
+def a(b, c, d): pass
+```
+
+**Ответ: Определяет функцию, которая ничего не делает**
+
+```
+x = "a"
+res = "AAA" if ord(x) > 129 else "BBB"
+print(res)
+```
+
+**Ответ: BBB**
+
+```
+x = True
+y = False
+z = False
+if not x or y:
+    print(1)
+elif not x or not y and z:
+    print(2)
+elif not x or y or not y and x:
+    print(3)
+else:
+    print(4)
+```
+
+**Ответ: 3**
+
+```
+for j in 'Hi! I\'m mister Rorert':
+    if j == '\'':
+        print("Got it")
+        break
+    else:
+        print("Nope")
+```
+
+**Ответ: Нет верного ответа**
+
+```
+name = "John"
+greet = "Hi, {}! Nice to meet {}!".format("you", name)
+print(greet)
+```
+
+**Ответ: Нет верного ответа**
+
+```
+if 'ITMO' in {'SPB': 1, 'ITMO': 2, 'University': 3}:
+    print(1)
+    print(2)
+    if 'CS' in 'Informatics':
+        print(3)
+    print(4)
+```
+
+**Ответ: 1 2 4 (каждое значение с новой строки)**
+
+```
+list = {"cat", "dog", "chimney", "bag"}
+print(list["dog"])
+```
+
+**Ответ: TypeError**
+
+Какой метод позволяет получить данные от пользователя?
+
+**Ответ: Метод input()**
+
+Какую структуру имеет XML-документ?
+
+**Ответ: Дерево с одним корнем**
+
+Почему язык XML называется расширяемым?
+
+**Ответ: Вы имеете возможность создавать собственные элементы**
+
+Назначение языка XML:
+
+**Ответ: Валидация Document Type Definition**
+
+Что такое SGLM-приложение?
+
+**Ответ: Набор наиболее употребительных элементов, используемых для описания документа определенного типа**
