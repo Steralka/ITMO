@@ -6,7 +6,9 @@
 
 > [!IMPORTANT]
 > Собраны с помощью этих челов:
+
 > [@rapiratik](t.me/rapiratik) - [github](https://github.com/Steralka)
+
 > [@nyapsilon](t.me/nyapsilon) - [github](https://github.com/maxbarsukov)
 
 Сколько килобайт содержится в 3 MiB? В ответе написать только целую часть результата.
